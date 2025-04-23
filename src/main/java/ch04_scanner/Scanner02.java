@@ -21,7 +21,7 @@ public class Scanner02 {
         // Ctrl + Space
 
         System.out.print("이름을 입력하세요 >>> ");
-        String name = scanner.nextLine();
+        String name = scanner.next();
         System.out.print("주소를 입력하세요 >>> ");
         String address = scanner.nextLine();
         System.out.print("나이를 입력 하세요 >>> ");
