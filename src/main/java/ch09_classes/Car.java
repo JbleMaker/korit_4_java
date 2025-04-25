@@ -25,6 +25,8 @@ public class Car {
      */
     static String color;
     static int speed;
+    // 생성자를 배우면 해결되는 개념.
+
 
     public static void drive() {
         System.out.println(color + "자동차가 주행중입니다.");
@@ -38,5 +40,7 @@ public class Car {
         System.out.println("이 차의 색깔은 " + color + "이고, \n 최고 속도는 " + speed + "km/h 입니다." + eval);
 
     }
+
+    //Constructor
 
 }
