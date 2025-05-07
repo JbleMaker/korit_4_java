@@ -13,7 +13,6 @@ public class JSON1 {
         jsonObject1.addProperty("password", 2);
         jsonObject1.addProperty("email", "a@ner.com");
         jsonObject1.addProperty("name", "KimOne");
-        jsonObject1.
 
         System.out.println(jsonObject1);
         /*
