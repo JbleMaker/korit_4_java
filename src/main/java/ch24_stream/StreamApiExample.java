@@ -37,8 +37,16 @@ public class StreamApiExample {
         System.out.println(count2);
 
         // 일반 for / 향상된 for문
-        int count3 = 0;
 
+        int count5 = 0;
+        for(String englishName : englishNames){
+            if(englishName.length() > 3){
+            count5++;
+            }
+        }
+        System.out.println(count5);
+
+        int count3 = 0;
         for(int i = 0; i < englishNames.size(); i++){
             // 각 element의 String 길이가 3초과인지 확인
             if(englishNames.get(i).length() > 3){
@@ -46,6 +54,7 @@ public class StreamApiExample {
             }
         }
         System.out.println(count3);
+
 
 
 
